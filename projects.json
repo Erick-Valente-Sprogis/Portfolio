@@ -1,0 +1,63 @@
+{
+	"github_username": "Erick-Valente-Sprogis",
+	"name": "Erick Valente Sprogis",
+	"location": "São Paulo, Brasil",
+	"role": {
+		"pt": "Desenvolvedor de Software",
+		"en": "Software Developer",
+		"es": "Desarrollador de Software"
+	},
+	"education": {
+		"pt": "Análise e Desenvolvimento de Sistemas — Unimetrocamp",
+		"en": "Systems Analysis and Development — Unimetrocamp",
+		"es": "Análisis y Desarrollo de Sistemas — Unimetrocamp"
+	},
+	"bio": {
+		"pt": "Desenvolvedor de Software de São Paulo, Brasil. Apaixonado por tecnologia, games e criar soluções que façam diferença.",
+		"en": "Software Developer from São Paulo, Brazil. Passionate about technology, games and building solutions that make a difference.",
+		"es": "Desarrollador de Software de São Paulo, Brasil. Apasionado por la tecnología, los videojuegos y la creación de soluciones que marcan la diferencia."
+	},
+	"linkedin": "https://www.linkedin.com/in/erick-valente-sprogis-51662827b/",
+	"instagram": "https://instagram.com/valente.ek",
+	"email": "ericksprogis@gmail.com",
+	"skills_known": [
+		"Python",
+		"JavaScript",
+		"Java",
+		"C",
+		"PHP",
+		"HTML",
+		"CSS",
+		"SCSS",
+		"React",
+		"Vue.js",
+		"Node.js",
+		"Spring",
+		"MySQL",
+		"PostgreSQL",
+		"MongoDB",
+		"Git"
+	],
+	"skills_learning": [
+		"React Native",
+		"Docker",
+		"Django",
+		"Kotlin",
+		"C#",
+		"C++",
+		"Next.js",
+		"TypeScript",
+		"Flutter",
+		"AWS",
+		"Azure",
+		"Supabase",
+		"Laravel"
+	],
+	"featured_repos": [
+		"Chess-AI",
+		"Gerador_Biblico",
+		"Introducao-Ciberseguranca-Wyden",
+		"PlanejamentoDieta",
+		"Portfolio"
+	]
+}

@@ -1,12 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Meu Portfólio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Portfólio — Erick Valente Sprogis</title>
 </head>
 <body>
-    <script src="script.js"></script>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-left">
+        <a href="#" class="logo" id="header-name">Portfólio</a>
+        <nav class="nav-desktop">
+          <ul>
+            <li><a href="#sobre" data-i18n="nav.about">Sobre</a></li>
+            <li><a href="#habilidades" data-i18n="nav.skills">Habilidades</a></li>
+            <li><a href="#projetos" data-i18n="nav.projects">Projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-right">
+        <div class="lang-switcher" id="lang-switcher">
+          <button class="lang-btn active" data-lang="pt">PT</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="es">ES</button>
+        </div>
+        <button class="nav-toggle" aria-label="Abrir menu">&#9776;</button>
+        <img id="profile-photo" src="" alt="Foto de perfil" class="profile-photo" />
+      </div>
+    </div>
+    <nav class="nav-mobile" id="nav-mobile" aria-hidden="true">
+      <ul>
+        <li><a href="#sobre" data-i18n="nav.about">Sobre</a></li>
+        <li><a href="#habilidades" data-i18n="nav.skills">Habilidades</a></li>
+        <li><a href="#projetos" data-i18n="nav.projects">Projetos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h1 id="about-name">Erick Valente Sprogis</h1>
+          <p class="about-role" id="about-role"></p>
+          <p class="about-education">
+            <span class="label" data-i18n="label.education">Formação</span>
+            <span id="about-education"></span>
+          </p>
+          <p class="about-location">
+            <span class="label" data-i18n="label.location">Localização</span>
+            <span id="about-location"></span>
+          </p>
+          <p class="about-bio" id="about-bio"></p>
+          <div class="about-links" id="about-links"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-i18n="section.skills">Habilidades</h2>
+        <div class="skills-grid">
+          <div class="skills-group">
+            <h3 data-i18n="skills.known">Linguagens &amp; Ferramentas</h3>
+            <div class="skills-list" id="skills-known"></div>
+          </div>
+          <div class="skills-group">
+            <h3 data-i18n="skills.learning">Estudando no momento</h3>
+            <div class="skills-list" id="skills-learning"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="section.projects">Projetos</h2>
+        <p class="projects-hint" data-i18n="projects.hint">
+          Para adicionar ou remover projetos, edite <code>projects.json</code> → <code>featured_repos</code>.
+        </p>
+        <div class="projects-grid" id="projects-grid">
+          <div class="loading" data-i18n="state.loading">Carregando projetos...</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p id="footer-text"></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

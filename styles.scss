@@ -1,5 +1,24 @@
-* {
+// Paleta de cores
+$bg: #1b211a;
+$green-mid: #628141;
+$green-light: #8bae66;
+$beige: #ebd5ab;
+$bg-card: #212b1f;
+$bg-alt: #1e271d;
+$muted: #9aab90;
+
+// Breakpoints
+$mobile: 640px;
+
+// Reset
+*,
+*::before,
+*::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
+// Nota: este arquivo é a fonte SCSS.
+// O arquivo styles.css (gerado/mantido manualmente) é o que o browser carrega.
+// Para compilar: sass styles.scss styles.css
