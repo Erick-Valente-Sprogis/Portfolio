@@ -1,12 +1,12 @@
 /* ===== VARIÁVEIS (paleta do styles.scss) ===== */
 :root {
-	--bg: #0e1310;
-	--green-mid: #628141;
-	--green-light: #8bae66;
-	--beige: #ebd5ab;
-	--bg-card: #161c14;
-	--bg-alt: #121812;
-	--muted: #9aab90;
+	--bg: #000000;
+	--green-mid: #3c6c15;
+	--green-light: #bea164;
+	--beige: #fff8e9;
+	--bg-card: #10140c;
+	--bg-alt: #080a06;
+	--muted: #aba38d;
 	--radius: 10px;
 	--transition: 0.2s ease;
 }
@@ -50,7 +50,7 @@ ul {
 code {
 	font-family: "Courier New", monospace;
 	font-size: 0.85em;
-	background: rgba(139, 174, 102, 0.12);
+	background: rgba(190, 161, 100, 0.12);
 	padding: 0.15em 0.4em;
 	border-radius: 4px;
 	color: var(--green-light);
@@ -73,7 +73,7 @@ img {
 	position: sticky;
 	top: 0;
 	z-index: 200;
-	background: rgba(11, 16, 10, 0.97);
+	background: rgba(0, 0, 0, 0.97);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 	border-bottom: 1px solid var(--green-mid);
@@ -167,7 +167,7 @@ img {
 .lang-switcher {
 	display: flex;
 	gap: 2px;
-	background: rgba(98, 129, 65, 0.12);
+	background: rgba(60, 108, 21, 0.12);
 	border: 1px solid var(--green-mid);
 	border-radius: 6px;
 	padding: 2px;
@@ -364,8 +364,8 @@ img {
 
 .skill-tag {
 	padding: 0.3rem 0.8rem;
-	background: rgba(98, 129, 65, 0.18);
-	border: 1px solid rgba(98, 129, 65, 0.5);
+	background: rgba(60, 108, 21, 0.18);
+	border: 1px solid rgba(60, 108, 21, 0.5);
 	border-radius: 20px;
 	font-size: 0.82rem;
 	color: var(--beige);
@@ -378,7 +378,7 @@ img {
 }
 
 .skill-tag:hover {
-	background: rgba(98, 129, 65, 0.35);
+	background: rgba(60, 108, 21, 0.35);
 	border-color: var(--green-light);
 }
 
@@ -398,7 +398,7 @@ img {
 
 .project-card {
 	background: var(--bg-card);
-	border: 1px solid rgba(98, 129, 65, 0.4);
+	border: 1px solid rgba(60, 108, 21, 0.4);
 	border-radius: var(--radius);
 	padding: 1.5rem;
 	display: flex;
@@ -470,8 +470,8 @@ img {
 
 /* ===== FOOTER ===== */
 .footer {
-	background: rgba(0, 0, 0, 0.25);
-	border-top: 1px solid rgba(98, 129, 65, 0.3);
+	background: var(--bg-alt);
+	border-top: 1px solid rgba(60, 108, 21, 0.3);
 	padding: 1.75rem 0;
 	text-align: center;
 	font-size: 0.82rem;
